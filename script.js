@@ -67,7 +67,7 @@ document.getElementById('qtyPlus').addEventListener('click',()=>{ qty=Math.min(9
 document.getElementById('qtyMinus').addEventListener('click',()=>{ qty=Math.max(1,qty-1); render(); });
 
 // After deploying the "lume checkout" project on Vercel, paste its URL here:
-const CHECKOUT_URL = 'https://lume-checkout.vercel.app';
+const CHECKOUT_URL = 'https://lumecheckout.com';
 document.getElementById('checkout').addEventListener('click',()=>{
   window.location.href = CHECKOUT_URL;
 });
